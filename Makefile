@@ -7,7 +7,7 @@ build: clean
 .PHONY: build
 
 clean:
-		rm -rf dist build *.egg-info .cache
+		rm -rf dist build *.egg-info .cache tests/__pycache__
 .PHONY: clean
 
 upload:
